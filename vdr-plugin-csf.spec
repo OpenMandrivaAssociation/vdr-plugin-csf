@@ -2,7 +2,7 @@
 %define plugin	csf
 %define name	vdr-plugin-%plugin
 %define version	0.0.1
-%define rel	12
+%define rel	13
 
 Summary:	VDR plugin: CSF Channel Sort&Filter
 Name:		%name
@@ -14,7 +14,7 @@ URL:		http://jmorra.tripod.com/
 # binaries removed
 Source:		%plugin-%version.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	vdr-devel >= 1.4.1-6
+BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
 
 %description
@@ -23,6 +23,7 @@ be sorted and filtered using different algorithms.
 
 %prep
 %setup -q -n %plugin
+%vdr_plugin_prep
 
 %build
 %vdr_plugin_build
