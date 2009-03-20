@@ -2,7 +2,7 @@
 %define plugin	csf
 %define name	vdr-plugin-%plugin
 %define version	0.0.1
-%define rel	14
+%define rel	15
 
 Summary:	VDR plugin: CSF Channel Sort&Filter
 Name:		%name
