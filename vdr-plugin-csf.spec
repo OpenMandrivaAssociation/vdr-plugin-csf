@@ -3,7 +3,7 @@
 Summary:	VDR plugin: CSF Channel Sort&Filter
 Name:		vdr-plugin-%plugin
 Version:	0.0.1
-Release:	17
+Release:	18
 Group:		Video
 License:	GPL
 URL:		http://jmorra.tripod.com/
