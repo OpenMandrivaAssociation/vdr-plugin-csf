@@ -6,7 +6,7 @@ Version:	0.0.1
 Release:	19
 Group:		Video
 License:	GPL
-URL:		http://jmorra.tripod.com/
+URL:		https://jmorra.tripod.com/
 # binaries removed
 Source:		%plugin-%version.tar.bz2
 BuildRequires:	vdr-devel >= 1.6.0
